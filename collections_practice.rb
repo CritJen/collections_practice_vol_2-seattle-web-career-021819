@@ -55,13 +55,8 @@ end
 end
 
 def organize_schools(schools)
-  organized_schools = []
+  org_schools = []
   schools.each do |school|
-    return school
-    school.each do |key, location|
-      if organized_schools.has_key?(location)
-      else
-      end
+    location_hash = school[0]
   end
-end
 end
