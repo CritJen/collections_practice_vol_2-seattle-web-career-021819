@@ -47,7 +47,7 @@ end
 def find_cool(hashes)
   cool_hashes = {}
   hashes.each do |person|
-    if person.include?("cool")
+    if person.has_key?("cool")
       cool_hashes << person
   end
 end
