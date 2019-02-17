@@ -45,7 +45,7 @@ def merge_data(array1, array2)
 end
 
 def find_cool(hashes)
-  cool_hashes = {}
+  cool_hashes = []
   hashes.each do |person|
     if person.has_value?("cool")
       cool_hashes << person
