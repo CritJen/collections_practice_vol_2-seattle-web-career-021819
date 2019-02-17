@@ -33,9 +33,10 @@ def count_elements(array)
 end
 
 def merge_data(array1, array2)
-  array3 = []
-  array4 = []
-  array3 = array1.shift
+  final_array = []
+  array1.each do |person|
+     mid_hash = {person, array2[person[:first_name]]}
+  end
 end
 
 def find_cool(hashes)
