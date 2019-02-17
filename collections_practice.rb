@@ -35,7 +35,9 @@ end
 def merge_data(array1, array2)
   final_array = []
   array1.each do |person|
-     mid_hash = {person, array2[0][person]}
+    first_name = person[:first_name]
+    array2_ppl = array2[0] 
+     mid_hash = {person, array2[0][person[:first_name]]}
   end
 end
 
