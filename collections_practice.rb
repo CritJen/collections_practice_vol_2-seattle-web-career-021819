@@ -63,3 +63,4 @@ def organize_schools(schools)
     if org_schools.has_key?()
   end
 end
+end
