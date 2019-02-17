@@ -57,6 +57,6 @@ end
 def organize_schools(schools)
   org_schools = []
   schools.each do |school|
-    return school[0]
+    return school[1]
   end
 end
