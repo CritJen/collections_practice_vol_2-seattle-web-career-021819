@@ -53,3 +53,8 @@ def find_cool(hashes)
 end
   return cool_hashes
 end
+
+def organize_schools(schools)
+  organized_schools = []
+  
+end
