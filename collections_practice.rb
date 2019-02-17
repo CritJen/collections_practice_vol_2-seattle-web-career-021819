@@ -61,7 +61,7 @@ def organize_schools(schools)
     school_location = location_hash.values
     return school_location
     if org_schools.has_key?(school_location)
-
+       org_schools[school_location] = school
     else
       org_schools << {school_location => school}
   end
