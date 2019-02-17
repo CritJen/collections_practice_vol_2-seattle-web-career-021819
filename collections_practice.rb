@@ -61,7 +61,6 @@ def organize_schools(schools)
     school.each do |key, location|
       if organized_schools.has_key?(location)
       else
-        organized_schools[:location] => school
       end
   end
 end
