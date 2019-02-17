@@ -57,8 +57,8 @@ end
 def organize_schools(schools)
   organized_schools = []
   schools.each do |school|
+    return school
     school.each do |key, location|
-return key
       if organized_schools.has_key?(location)
       else
       end
