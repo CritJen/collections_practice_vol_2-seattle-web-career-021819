@@ -60,10 +60,10 @@ def organize_schools(schools)
     location_hash = school[1]
     school_location = location_hash.values
     if org_schools.has_key?(school_location[0])
-      return "poop"
        org_school[:school_location] = school
     else
       org_schools.merge!(school_location: school)
+      return "poop"
   end
 end
 org_schools
