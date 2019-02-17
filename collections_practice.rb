@@ -38,7 +38,7 @@ def merge_data(array1, array2)
     first_name = person[:first_name]
     array2_ppl = array2[0]
     array2_person  = array2_ppl[first_name] 
-     mid_hash = {person, array2[0][person[:first_name]]}
+     mid_hash = {person, array2_person}
   end
 end
 
