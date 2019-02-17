@@ -65,3 +65,4 @@ def organize_schools(schools)
       end
   end
 end
+end
