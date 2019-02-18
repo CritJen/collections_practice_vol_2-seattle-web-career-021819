@@ -58,7 +58,8 @@ def organize_schools(schools)
   org_schools = {}
   schools.each do |school|
     location_hash = school[1]
-    school_location = location_hash.values
+    school_location = location_hash.values.join
+    return school_location
     if org_schools.has_key?(:school_location)
        org_school[:school_location] = school
     else
