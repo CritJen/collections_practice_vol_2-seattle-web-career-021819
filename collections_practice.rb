@@ -55,7 +55,7 @@ end
 end
 
 def organize_schools(schools)
-  org_schools = {}
+  org_schools = []
   schools.each do |school|
     location_hash = school[1]
     school_location = location_hash.values
