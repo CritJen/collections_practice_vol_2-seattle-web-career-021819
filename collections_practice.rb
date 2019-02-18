@@ -65,5 +65,5 @@ def organize_schools(schools)
       org_schools[school_location] = school
   end
 end
-org_schools.flatten
+org_schools
 end
